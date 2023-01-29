@@ -8,7 +8,7 @@ public class Test {
 			customers.add("person" + i);
 		}
 		
-		for(int i = 0; i < customers.getSize(); i++) {
+		for(int i = 0; i < customers.getSize() - 1; i++) {
 			System.out.println(customers.get(i));
 		}
 		
